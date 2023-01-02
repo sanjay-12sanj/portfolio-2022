@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    margin: 0px;
+}
+.menu{
+    background-color: aqua;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin-top: 0px;
+    z-index: 10;
+
+}
+.link{
+    display: inline;
+    font-size: 40px;
+    margin-left: 40px;
+}
+.nav{
+    text-decoration: none;
+    color: black;
+}
+/* pseudo class - selector : pseudo - class { property : value;} */
+.nav:hover{
+    font-size: 40px;
+    color: red;
+}
+html{
+    scroll-behavior: smooth;
+}
+#profile{
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+#title{
+    font-family: 'Chivo Mono', monospace;
+    margin-top: 0px;
+    font-size: 50px;
+}
+h3{
+    margin-top: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#home{
+    background-image: linear-gradient(to bottom right , aqua,yellow,red) ;
+}
